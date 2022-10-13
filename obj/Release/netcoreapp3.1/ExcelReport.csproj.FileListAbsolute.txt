@@ -1,0 +1,5 @@
+C:\Users\ptrsz\Documents\PROGRAMMING\Excel_Report\ExcelReport\ExcelReport\obj\Release\netcoreapp3.1\ExcelReport.csproj.AssemblyReference.cache
+C:\Users\ptrsz\Documents\PROGRAMMING\Excel_Report\ExcelReport\ExcelReport\obj\Release\netcoreapp3.1\ExcelReport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ptrsz\Documents\PROGRAMMING\Excel_Report\ExcelReport\ExcelReport\obj\Release\netcoreapp3.1\ExcelReport.AssemblyInfoInputs.cache
+C:\Users\ptrsz\Documents\PROGRAMMING\Excel_Report\ExcelReport\ExcelReport\obj\Release\netcoreapp3.1\ExcelReport.AssemblyInfo.cs
+C:\Users\ptrsz\Documents\PROGRAMMING\Excel_Report\ExcelReport\ExcelReport\obj\Release\netcoreapp3.1\ExcelReport.csproj.CoreCompileInputs.cache
