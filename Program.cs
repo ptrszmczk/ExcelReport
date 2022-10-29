@@ -91,7 +91,7 @@ internal class Program
         wsRaportDzienny.Cells[1, 9, 1000, 9].Copy(wsPoints.Cells[1, 4, 1000, 4]);
 
         DeletingOnesfullRows(wsPoints, date);
-        MoveShortFullDowntimes(wsPoints, 2, 10);
+        //MoveShortFullDowntimes(wsPoints, 2, 10);
         ClearAllFormatting(wsPoints);
         AddCorrectFormating(wsPoints);
         FormatDateAndTime(wsPoints);
