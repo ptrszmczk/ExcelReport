@@ -212,6 +212,7 @@ internal class Program
             else if ((actualLine == "MV1-2" || actualLine == "MV1" || actualLine == "MV2" || actualLine == "DECKING" || actualLine == "UNDECKING") && itemValue.Contains("UNDECKING")) actualLine = "UNDECKING";
             if      ((actualLine == "MV3-4" || actualLine == "MV3" || actualLine == "MV4") && itemValue.Contains("MV3")) actualLine = "MV3";
             else if ((actualLine == "MV3-4" || actualLine == "MV3" || actualLine == "MV4") && itemValue.Contains("MV4")) actualLine = "MV4";
+            if      ((actualLine == "OM2" || actualLine == "LOADING LINE") && (itemValue.Conatins("SLT2600") || itemValue.Conatins("SLT 2600")) actualLine = "UNDECKING";
 
             //Assigning basic lines
             if (maintLinesDictionary.ContainsKey(itemValue.ToUpper()))
@@ -228,10 +229,7 @@ internal class Program
 
             if (actualLine == "HC1" || actualLine == "HC2") actualLine = "HC1-2";
             if (actualLine == "MV1" || actualLine == "MV2" || actualLine == "DECKING" || actualLine == "UNDECKING") actualLine = "MV1-2";
-            if ((actualLine == "MV3" || actualLine == "MV4") && sihiFlag == 1)
-            {
-                actualLine = "MV3";
-            }
+            if ((actualLine == "MV3" || actualLine == "MV4") && sihiFlag == 1) actualLine = "MV3";
             else if ((actualLine == "MV3" || actualLine == "MV4") && sihiFlag == 0) actualLine = "MV3-4";
 
             i++;
